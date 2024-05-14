@@ -1,4 +1,4 @@
-uPanelCode 4 WorkSpace for MacOS edition Bionic
+     uPanelCode 4 WorkSpace for MacOS edition Bionic
      ****************************************
      NameProduct: uPanelCode
      VersionProduct: 4.0
@@ -28,7 +28,7 @@ uPanelCode 4 WorkSpace for MacOS edition Bionic
                  WebKit Support 
                  HTPlay WorkSpace 1
                  Widget Weather 
-     *****************************************
+     *************************************
      BlueKit Graphical WorkSpace 1
      
      ID: 8642394723842893748937429374
