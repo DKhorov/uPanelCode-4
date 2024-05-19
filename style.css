@@ -1,0 +1,627 @@
+
+/* Vanatge Technology (C)    Product DK Studio 2024 */
+.analytics-title {
+    opacity: 0; /* начальное значение непрозрачности */
+    animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
+    animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+    animation-duration: 0.5s; /* длительность анимации в 1 секунду */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+
+    }
+}
+
+body{
+    background-color: #202225;
+    margin: 0;
+    user-select: none;
+}
+.bth1{
+    background-color: #1e6ff7;
+    color: white;
+    border: solid #1e6ff7 1px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.bth2{
+    background-color: #1e6ff7;
+    color: white;
+    border: solid #1e6ff7 1px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 21px;
+    margin-left: 30px;
+}
+.bth3{
+    background-color: #1e6ff7;
+    color: white;
+    border: solid #1e6ff7 1px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 21px;
+    margin-left: 10px;
+}
+.bth4{
+    background-color: #1e6ff7;
+    color: white;
+    border: solid #1e6ff7 1px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s;
+}
+.bth1:hover{
+    border: solid #1e6ff7 2px;
+    background:  transparent;
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    color: #1e6ff7;
+
+
+}
+.bth2:hover{
+    border: solid #1e6ff7 2px;
+    background:  transparent;
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    color: #1e6ff7;
+
+
+}
+.bth3:hover{
+    border: solid #1e6ff7 2px;
+    background:  transparent;
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    color: #1e6ff7;
+
+
+}
+.bth4:hover{
+    border: solid red 2px;
+    background:  transparent;
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    color: red;
+
+
+}
+
+/*Center Styles*/
+
+.window{
+    width: 94.8%;
+    height: 96%;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 3px;
+    user-select: none;
+}
+.menu{
+    width: 60px;
+    position: fixed;
+    user-select: none;
+}
+.analytics-title{
+    font-family: "Microsoft YaHei Light",sans-serif;
+    color: white;
+    margin-left: 30px;
+}
+
+/*_____________________*/
+
+.button{
+    transition: 0.5s;
+    user-select: none;
+}
+.button:hover{
+    transform: scale(0.9);
+}
+.windowSub{
+
+    width: 94.8%;
+    height: 96%;
+    background-color: white;
+    border-radius: 3px;
+    position: fixed;
+    overflow: auto;
+
+}
+.button1{
+    position: fixed; /* Фиксированное положение */
+    bottom: 25px; /* Левый нижний угол */
+    transition: 0.5s;
+}
+.button1:hover{
+    transform: scale(0.9);
+}
+
+#ani{
+    transition: 0.2s;
+}
+#ani:hover{
+    transform: rotate(360deg);
+}
+.pop{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.pop-config{
+    width: 80%;
+    border-radius: 10px;
+    background-color: #17181a;
+    border: 1px solid #888;
+    margin: 15% auto;
+    padding: 20px;
+}
+.logo{
+    user-select: none;
+}
+.analytics-title{
+    font-family: "Microsoft YaHei Light",sans-serif;
+    color: white;
+    margin-left: 30px;
+}
+.value{
+    width: 95%;
+    height: 5.5%;
+    background-color: #36393f;
+    border: solid #202225 1px;
+}
+.value-info{
+    font-family: Arial,serif;
+    color: white;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#gallery .photos img{
+    display: none;
+}
+#gallery .photos img:first-child{
+    display: block;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.title-wallet{
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+    div.box{
+        display: block;
+        transform: scale(0.8);
+    }
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.acvtive-title{
+    font-family: Arial,serif;
+    color: white;
+    margin-left: 20px;
+
+}
+.balance{
+    font-family: "Microsoft YaHei Light",serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+}
+.active-subtitle{
+    font-family: "Microsoft YaHei Light",serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -13px;
+
+
+}
+.title-trade{
+    display: flex;
+    justify-content: space-between;
+}
+#clock {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #36393f;
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.table-trade{
+    display: flex;
+    width: 93%;
+    height: 50px;
+    border: solid #0f1011 1.5px;
+    background-color: #25282c;
+    border-radius: 3px;
+    cursor: default;
+
+
+}
+.valute-info{
+    font-family: "Segoe UI Light",serif;
+    font-size: 13px;
+    color: white;
+    margin-left: 7px;
+    margin-top: 16px;
+
+}
+.valute-buy{
+
+    font-family: Arial,serif;
+    color: white;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.valute{
+    font-family: Arial,serif;
+    color: yellow;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.getwallet{
+    font-family: "Segoe UI Light", serif;
+    color: yellow;
+    margin-left: 39px;
+    margin-top: -13px;
+}
+.buy{
+    width: 140px;
+    font-family: "Arial Black",serif;
+    color: green;
+    background-color: #25282c;
+    border: solid green 5px;
+    margin-left: 30px;
+}
+.sell{
+
+    width: 140px;
+    font-family: "Arial Black",serif;
+    color: red;
+    background-color: #25282c;
+    border: solid red 5px;
+    margin-left: 30px;
+}
+
+.sell:hover{
+    color: white;
+    background-color: red;
+}
+.buy:hover{
+    color: white;
+    background-color: green;
+}
+@media screen and (max-width: 1200px) {
+    div.table-trade{
+        height: 280px;
+        display: block;
+    }
+}
+@media screen and (max-width: 900px) {
+    h4.valute-info{
+        display: none;
+    }
+    h4.getwallet{
+        font-size: 11px;
+        padding-right: 45px;
+    }
+    div.table{
+        width: 55%;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    div.market-position{
+        display: block;
+    }
+    div.market{
+        padding-right: 30px;
+    }
+    table.markettab{
+        width: 300px;
+    }
+    div.history-operation{
+        display: none;
+    }
+    h2.error-operation{
+        display: block;
+        width: 350px;
+        font-size: 15px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+table{
+    width: 99%;
+    height: 250px;
+    font-family: "Arial Black",serif;
+    color: yellow;
+    border-radius: 8px;
+    background-color: #161616;
+
+
+
+}
+th:hover{
+    font-family: "Segoe UI Light",serif;
+    background-color: yellow;
+    color: black;
+
+}
+.market{
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    border: solid  #0e0e10 2px;
+    background-color: #070606;
+    margin-top: 35px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+
+
+}
+.market-position{
+    display: flex;
+    justify-content: space-evenly;
+}
+.market-title{
+    font-family: Arial,serif;
+    color: yellow;
+    text-align: center;
+}
+.market-selector{
+    width: 320px;
+    height: 190px;
+    border: solid #0e0e10 2px;
+    border-radius: 8px;
+}
+select{
+    width: 250px;
+    height: 40px;
+}
+.market-button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #0071e3;
+    border: solid #0071e3 1px;
+    border-radius: 8px;
+}
+.center-info{
+    font-family: "Segoe UI Light",serif;
+    color: white;
+    text-align: center;
+}
+.markettab{
+    width: 350px;
+    height: 70px;
+
+}
+.market-selector{
+    background-color: #121212;
+}
+
+.markettab{
+    margin-bottom: 50px;
+}
+.history-operation{
+    width: 90%;
+    height: auto;
+    background-color: #141b26;
+    border: solid black 2px;
+    margin-bottom: 30px;
+}
+.operation {
+    display: flex;
+    width: 95%;
+    height: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: solid black 3px;
+    background-color: #202225;
+    transition: 0.6s;
+
+
+}
+
+
+.title-opertaion{
+    font-family: Arial,serif;
+    color: yellow;
+    margin-top: 17px;
+    margin-left: 30px;
+
+}
+.subtitle-operation{
+    font-family: "Segoe UI Light",serif;
+    color: #4ed24e;
+    margin-left: 30px;
+    margin-top: 13px;
+
+}
+.DataOperation{
+    font-family: "Segoe UI Light",serif;
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.error-operation{
+    display: none;
+    font-family: "Segoe UI Light",serif;
+    color: red;
+    margin-left:10px;
+
+}
+
+.areas{
+    width: 90%;
+    height: 80%;
+    position: fixed;
+    resize: none;
+    user-select: auto;
+    font-size: 20px;
+}
+
+.htplay{
+    width: 90%;
+    height: 80%;
+    position: fixed;
+    background-color: white;
+}
+
+.test{
+    user-select: none;
+    width: 80%;
+    height: 60%;
+    margin-left: 30px;
+    border-radius: 8px;
+    position: fixed;
+    resize: none;
+    margin-top: -250px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.select-font{
+    width: 170px;
+    height: 40px;
+    font-family: Arial, serif;
+    border-radius: 8px;
+}
+option{
+    border-radius: 1px;
+
+}
+
+input[type="color"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 52px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: -1px;
+}
+
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+
+.setup-font{
+    width: 230px;
+    height: 40px;
+    font-family: "Arial Rounded MT Bold", serif;
+    border-radius: 8px;
+    margin-left: 40px;
+    background-color: #1e6ff7;
+    color: white;
+    border: solid #1e6ff7 1px;
+    padding-right: 30px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    margin-right: 10px;
+    padding: 20px;
+    border:1px solid yellow;
+    float: right;
+    margin-top: 18px;
+    border-radius: 5px;
+    background-color: #36393f;
+    height: 29%;
+    width: 500px;
+}
+
+.sea{
+    width: 93%;
+    height: 50px;
+    border: solid white 3px;
+    font-family: Arial, serif;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.heaven-button{
+    display: flex;
+    margin-top: 20px;
+
+}
+.sdvg{
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.sdvg:hover{
+     transform: scale(1.2);
+ }
+
+.sdk{
+    resize: none;
+    width: 88%;
+    height: 55%;
+    position: fixed;
+    margin-top: 20px;
+    font-family: "Times New Roman", serif;
+    color: #0e8011;
+    border-radius: 8px;
+}
